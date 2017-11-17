@@ -1,0 +1,184 @@
+* {
+	box-sizing: border-box;
+}
+.clear {
+	clear: both;
+}
+header {
+	background-color: #5efc8d;
+	text-align: center;
+	background-color: rgba(255, 255, 255, .5);
+	font-family: 'ABeeZee', sans-serif;
+}
+body{
+	background-color: #5efc8d;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+div.text-wrap {
+	background-color: rgba(255, 255, 255, .5);
+	padding: 15px;
+
+}
+
+/* ==== Section Widths ==== */
+
+/*Origin*/
+div.origin {
+	display: inline-block;
+	background-color: #6290c3;
+	padding: 50px 10%;
+}
+div.origin .image-wrap {
+	width: 25%;
+	float: left;
+}
+div.origin .text-wrap {
+	width: 75%;
+	float: left;
+}
+
+/*Facts*/
+div.facts {
+	display: inline-block;
+	background-color: #6290c3;
+	padding: 50px 10%;
+}
+div.facts .image-wrap {
+	width: 25%;
+	float: left;
+}
+div.facts .text-wrap {
+	width: 75%;
+	float: left;
+}
+
+/*Buy*/
+div.buy {
+	display: inline-block;
+	background-color: #6290c3;
+	padding: 50px 10%;
+}
+div.buy .image-wrap {
+	width: 60%;
+	float: left;
+}
+div.buy .text-wrap {
+	width: 40%;
+	float: left;
+}
+
+/*How To */
+div.howto {
+	display: inline-block;
+	background-color: #6290c3;
+	padding: 50px 10%;
+}
+div.howto .image-wrap {
+	width: 45%;
+	float: left;
+}
+div.howto .text-wrap {
+	width: 55%;
+	float: left;
+}
+/* ==== End Section Widths ==== */
+
+/* ==== Text ==== */
+
+/*Origin*/
+div.origin p {
+	color: #086788;
+	font-family: 'ABeeZee', sans-serif;
+}
+div.origin h2 {
+	font-family: 'ABeeZee', sans-serif;
+}
+
+/*Facts*/
+div.facts ul {
+	color: #086788;
+	font-family: 'ABeeZee', sans-serif;
+}
+div.facts h2 {
+	font-family: 'ABeeZee', sans-serif;
+}
+
+/*Buy*/
+div.buy table {
+	font-family: 'ABeeZee', sans-serif;
+}
+td.life {
+	color: #086788;
+	font-size: 20px;
+}
+td.groom {
+	color: #086788;
+	font-size: 20px;
+}
+td.aggression {
+	color: #086788;
+	font-size: 20px;
+}
+td.friendliness {
+	color: #086788;
+	font-size: 20px;
+
+}
+td.info {
+	color: #6290C3;
+}
+div.buy h2 {
+	font-family: 'ABeeZee', sans-serif;
+}
+
+/*How To*/
+div.howto p {
+	color: #086788;
+	font-family: 'ABeeZee', sans-serif;
+}
+div.howto h2 {
+	font-family: 'ABeeZee', sans-serif;
+}
+
+
+/* ==== End Text ==== */
+div.origin h2 p {
+}
+
+div.facts {
+	display: inline-block;
+	background-color: #6290c3;
+	width: 100%;
+	margin-top: 10px;
+}
+div.facts h2 ul {
+	float: left;
+}
+div.facts img {
+	float: right;
+}
+
+div.buy {
+	display: inline-block;
+	background-color: #6290c3;
+	width: 100%;
+	margin-top: 10px;
+}
+div.buy img {
+	float: left;
+}
+
+div.howto {
+	display: inline-block;
+	background-color: #6290c3;
+	margin-top: 10px;
+}
+div.howto img {
+	float: left;
+}
+div.howto h2 p {
+	float: left;
+}
